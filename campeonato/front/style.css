@@ -1,0 +1,31 @@
+
+/* Tabela de Cadastro */
+.camp-table{
+    width: 100%;
+    text-align: left;
+}
+
+.camp-header th{
+    border-bottom: 1px solid #ECDDF3;
+    padding: 5px 0;
+}
+
+/* Tamanho da imagem */
+.img-time{
+    width: 30px;
+}
+
+/* Tabela de Classificacao */
+.class-table{
+    width: 100%;
+    text-align: left;
+}
+
+.class-header th{
+    border-bottom: 1px solid #ECDDF3;
+    padding: 5px 0;
+}
+
+td{
+    padding: 3px;
+}

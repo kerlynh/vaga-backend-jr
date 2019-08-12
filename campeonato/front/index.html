@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Campeonato</title>
+</head>
+<body>
+  <main class="container">
+    <div class="jumbotron">
+      <h1>Tabela de Jogos</h1>
+
+    </div>
+    <div class="row">
+        <div class="col-8" id="items-clubes">
+            <table class="camp-table">
+                <thead class="camp-header">
+                    <th>TIME</th>
+                    <th>BRASÃO</th>
+                </thead>
+                <!-- Tabela -->
+                <tbody class="camp-body">
+                    <!-- Linhas-->
+                </tbody>
+            </table>
+        </div>
+        
+        <!-- Cadastro de time -->
+        <div class="col-4 bg-light rounded" id="cadastro">
+          <h3>Cadastre os times</h3>
+          <div class="form-group">
+            <label for="nome_input">Nome</label>
+            <input type="text" class="form-control" id="nome-input" />
+          </div>
+
+          <div class="form-group">
+            <label for="imagem_input">Brasão</label>
+            <input type="text" class="form-control" id="imagem-input" />
+          </div>
+          <button type="button" class="btn btn-dark"  id="bt_new_clube">Cadastrar</button>
+        </div>
+    </div>
+  </main>
+
+  <section>
+    <div>
+      <label for="" class="class-time"></label><input type="text" class="form-control" id="in-time"/>
+       <h2 class="camp-subtitle subtitle">Classificação</h2>
+        <div class="col-8" id="items-class">
+          <table class="class-table">
+              <thead class="class-header">
+                  <th>TIME</th>
+                  <th>PONTOS</th>
+                  <th>VITÓRIAS</th>
+                  <th>SALDO DE GOLS</th>
+                  <th>GOLS FEITOS</th>
+                  <th>EMPATE</th>
+              </thead>
+              
+              <tbody class="class-body">
+                  
+              </tbody>
+          </table>
+        </div>
+
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
